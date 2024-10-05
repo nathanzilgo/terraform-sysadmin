@@ -1,5 +1,5 @@
 variable "container_name" {
-  description = "Value of the name for the Docker container"
+  description = "Valor para o nome do Container Docker"
   type        = string
-  default     = "Nginx Container Sysadmin"
+  default     = "Nginx-Container-Sysadmin"
 }

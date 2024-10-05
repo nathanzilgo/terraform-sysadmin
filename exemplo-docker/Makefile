@@ -13,4 +13,7 @@ show:
 apply.container_name:
 	terraform apply -var "container_name=OutroNome"
 
+output:
+	terraform output
+
 .PHONY: destroy
